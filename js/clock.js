@@ -5,7 +5,7 @@ function showTime(){
   let hours = date.getHours();
   let minutes = date.getMinutes();
   let seconds = date.getSeconds();
-  let day=""; d = date.getDay();
+  let day="", d = date.getDay();
   switch(d){
     case 0 : {
       day="Pazar";
